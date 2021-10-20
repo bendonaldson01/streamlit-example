@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 
 """
-This is a test
+ test
 
 Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
 
