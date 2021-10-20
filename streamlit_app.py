@@ -4,8 +4,10 @@ import math
 import pandas as pd
 import streamlit as st
 
+x = st.slider('x')
+
 df = pd.DataFrame({
-  'first column': [1, 2, 3, 4],
+  'first column': [1, 2, x, 4],
   'second column': [10, 20, 30, 40]
 })
 
