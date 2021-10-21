@@ -9,7 +9,7 @@ import numpy as np
 st.radio(
         'Sorting hat',
         ("Gryffindor", "Ravenclaw", "Hufflepuff", "Slytherin"))
-st.write(f"You are in {chosen} house!")
+    st.write(f"You are in {chosen} house!")
  
 chart_data = pd.DataFrame(
      np.random.randn(20, 3),
