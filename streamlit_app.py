@@ -16,7 +16,7 @@ with right_column:
     st.write(f"You are in {chosen} house!")
     
 chart_data = pd.DataFrame(
-     np.random.randn(20, 3),
+     np.random.randn(20, 3, 4),
      columns=['a', 'b', 'c'])
 
 st.line_chart(chart_data)
