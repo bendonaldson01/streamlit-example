@@ -3,6 +3,7 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
+import numpy as np
 
 left_column, right_column = st.columns(2)
 # You can use a column just like st.sidebar:
@@ -16,7 +17,6 @@ with right_column:
     st.write(f"You are in {chosen} house!")
     
 chart_data = pd.DataFrame(
-     np.random.randn(20, 3, 4),
+     np.random.randn(20, 3),
      columns=['a', 'b', 'c'])
-
-st.line_chart(chart_data)
+    st.line_chart(chart_data)
